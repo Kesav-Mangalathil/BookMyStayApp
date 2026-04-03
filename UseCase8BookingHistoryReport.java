@@ -80,7 +80,7 @@ class BookingReportService {
             countByType.put(type, countByType.getOrDefault(type, 0) + 1);
         }
 
-        System.out.println("\nBooking Summary (Room Type Count):");
+        System.out.println("\nBooking Summary  (Room Type Count):");
         for (Map.Entry<String, Integer> entry : countByType.entrySet()) {
             System.out.println(entry.getKey() + " : " + entry.getValue());
         }
